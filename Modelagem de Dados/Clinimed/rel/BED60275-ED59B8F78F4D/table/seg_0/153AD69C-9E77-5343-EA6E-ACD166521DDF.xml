@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="153AD69C-9E77-5343-EA6E-ACD166521DDF" name="TB_CONSULTA">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>C9A280AD-AD8A-FFCB-B9E4-F6C447CF103B</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consulta" id="FD3F1F83-1DFE-7BE9-EA51-809EE829F486">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>7C6346C7-15A2-30A8-DF13-CBCD9A941675</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PACIENTE_id_paciente" id="4609EDE4-30D1-5BDC-1EB3-8AD0C49310F5">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>743E4FD4-D924-5C76-CA9D-34239D803B51</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4649221C-DDA4-CF1A-32DF-46A520898E7F" referredColumn="2DD48445-38E0-39B8-67D3-1CE498C5A314"/>
+</associations>
+</Column>
+<Column name="TB_MEDICO_id_medico" id="7618FD74-99E2-6C26-15F6-E3374051E8F8">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>D112F591-F67F-0608-EFFA-2BBF0D2C3E4E</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="638C1C4B-B293-EFA5-6DC2-AD6A394CAB6C" referredColumn="063B1C82-0F68-5D7B-CD65-6D627192D0C4"/>
+</associations>
+</Column>
+<Column name="dt_hora" id="4E70107E-623C-7434-80AA-0D3481594048">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>0262FB88-612F-8BAF-1230-7D11709C1801</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sintomas" id="59F3A9DC-4072-C7C6-BFD0-B7C7EF862DBE">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>A21AEC7F-B146-5364-9A5D-AEB34026DCDA</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_diagnostico" id="EABA3F4B-9059-D258-3C7B-E3E706770DE7">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>7167E85E-E9AB-78D7-5B90-0BC3A7904FE2</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_prescricoes" id="B4246379-7F37-9D36-A7B1-327F7A809433">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>E911B247-2813-C703-EC5A-2F1C8C0A97FA</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_consulta" id="CA6E3373-C941-E187-DD1E-884849A61EF1">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>83E4AF00-D667-136B-1583-6C9F681E4B63</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A3931FE-5A50-7FF9-A6C1-EE3FB2D2413F" name="TB_CONSULTA_PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>380289E8-6F08-6AC9-67DE-52EC580ABC1C</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD3F1F83-1DFE-7BE9-EA51-809EE829F486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78D6F2F2-3352-D88B-EFE1-41B75A01CD42" name="TB_CONSULTA_TB_PACIENTE_FK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>2BB710F6-898D-FFCD-02C4-A0C4EE40A576</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4609EDE4-30D1-5BDC-1EB3-8AD0C49310F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2BC6BE8-7F6C-6130-C9F9-F5286384FA3F" name="TB_CONSULTA_TB_MEDICO_FK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>7224B49A-21DE-67EA-2EEB-FB4751E7BAD3</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7618FD74-99E2-6C26-15F6-E3374051E8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

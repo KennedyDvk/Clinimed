@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C501749A-E7CC-227E-26E3-A501206F8240" name="TB_PACIENTE">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 22:23:55 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="4DCD75C1-50E3-097A-55A7-7DB6E30269FC">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 22:28:14 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="DD9786E4-EFB9-8D97-3643-37CC5A3CA449">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:01:32 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="A6E46597-4B21-374E-57F2-646055A457D9">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:02:00 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="DD0AA9A3-61E2-1798-D3FC-53D8D70E73BA">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:02:29 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="57BA97D9-5F2A-49A1-09A2-EAFA2519D48B">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:03:19 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="3BEA1FC3-7C80-3EB4-5D47-B09E26586E9A">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:44:57 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD1DCEC6-318A-F0DA-A0CF-A17628148E00" name="TB_PACIENTE PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 22:30:01 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DCD75C1-50E3-097A-55A7-7DB6E30269FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

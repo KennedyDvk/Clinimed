@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57B6F80A-FEFE-63CD-80D1-F7202A9CD020" name="TB_PACIENTE">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>C501749A-E7CC-227E-26E3-A501206F8240</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="2DD48445-38E0-39B8-67D3-1CE498C5A314">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>4DCD75C1-50E3-097A-55A7-7DB6E30269FC</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_paciente" id="A7D72646-41CC-08C6-1113-41CB853813C2">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>DD9786E4-EFB9-8D97-3643-37CC5A3CA449</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="5A15B348-1489-A59F-427C-EBFD84A02B5C">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>A6E46597-4B21-374E-57F2-646055A457D9</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="CDCB2976-116A-DC8E-C742-D7ACF46C589C">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>DD0AA9A3-61E2-1798-D3FC-53D8D70E73BA</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="51A95149-99A2-2AF9-ABD8-E4E06D94747F">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>57BA97D9-5F2A-49A1-09A2-EAFA2519D48B</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="18BFAE7B-923B-D4EE-722D-C44E2BA10697">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:45:29 UTC</createdTime>
+<generatorID>3BEA1FC3-7C80-3EB4-5D47-B09E26586E9A</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16727915-2AA7-7FFA-265E-347F32CEF09E" name="TB_PACIENTE_PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>FD1DCEC6-318A-F0DA-A0CF-A17628148E00</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD48445-38E0-39B8-67D3-1CE498C5A314"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

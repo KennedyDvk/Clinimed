@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ocorrer" directorySegmentName="seg_0" id="CFA7462E-B428-55D2-82F1-2B09534E6EFC">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 23:32:32 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<sourcePk>380289E8-6F08-6AC9-67DE-52EC580ABC1C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9A280AD-AD8A-FFCB-B9E4-F6C447CF103B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C32FB88D-6C05-CA8A-6CC7-7542F07A6436</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

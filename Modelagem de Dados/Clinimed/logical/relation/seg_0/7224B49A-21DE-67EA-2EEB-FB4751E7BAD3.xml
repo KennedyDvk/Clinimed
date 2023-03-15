@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realiza" directorySegmentName="seg_0" id="7224B49A-21DE-67EA-2EEB-FB4751E7BAD3">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 00:09:15 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<sourcePk>53A14092-690A-F1D0-11E8-60C09723D31A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8C24EF4-7991-5FA1-1E4C-9456486D1646</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9A280AD-AD8A-FFCB-B9E4-F6C447CF103B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="696831A0-F318-9EB6-6685-1A90AD3CD37A" name="TB_INTERNACAO">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>C32FB88D-6C05-CA8A-6CC7-7542F07A6436</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_internacao" id="E22C9A42-453C-A35A-FBDB-F431207E2EDA">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>3B24F3D4-FA60-CA28-7E22-930A135FB11A</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="2A0D84E3-87B3-0622-000C-5CA73C590DD2">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>BD74A2FA-0E8A-A0FA-B00B-A567D1509CF8</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="9689F7C2-0ADA-7C23-18BE-67BDC79B05FB">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>B70108C1-4932-632B-29A8-543C659720A6</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_quarto" id="1BADBD3F-6C2C-9E61-DC38-BE9FC24B4084">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>A8FFB503-131B-1A92-3471-FAF6A74C8F5A</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CONSULTA_id_consulta" id="710456D6-FC50-AC10-0894-AAFCE223415E">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>7BBE4ADA-EB2A-5328-AF39-67FE920BE956</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E68429D4-B71A-369D-A34F-422865062028" referredColumn="FD3F1F83-1DFE-7BE9-EA51-809EE829F486"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5228C5AD-B7E0-B15A-409D-E31C53975DEC" name="TB_INTERNACAO_PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 04:27:06 UTC</createdTime>
+<generatorID>13D3CDB1-1DB1-229A-2156-77E37AAA11E3</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E22C9A42-453C-A35A-FBDB-F431207E2EDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0B722D0-8635-673F-34B3-53D8D3234ABE" name="TB_INTERNACAO_TB_CONSULTA_FK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-05 00:14:34 UTC</createdTime>
+<generatorID>CFA7462E-B428-55D2-82F1-2B09534E6EFC</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="710456D6-FC50-AC10-0894-AAFCE223415E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

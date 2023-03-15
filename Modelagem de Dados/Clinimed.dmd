@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Clinimed" id="4D22E2D3-71F6-1C44-9CEA-CC438E627C59" version="3.5">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 22:21:43 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4D22E2D3-71F6-1C44-9CEA-CC438E627C59</designId>
+</OSDM_Design>

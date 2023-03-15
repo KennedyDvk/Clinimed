@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C32FB88D-6C05-CA8A-6CC7-7542F07A6436" name="TB_INTERNACAO">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:42:30 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_internacao" id="3B24F3D4-FA60-CA28-7E22-930A135FB11A">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:42:46 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="BD74A2FA-0E8A-A0FA-B00B-A567D1509CF8">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:43:18 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="B70108C1-4932-632B-29A8-543C659720A6">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:43:41 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_quarto" id="A8FFB503-131B-1A92-3471-FAF6A74C8F5A">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:44:01 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_consulta" id="7BBE4ADA-EB2A-5328-AF39-67FE920BE956">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 23:32:32 UTC</createdTime>
+<generatorID>CFA7462E-B428-55D2-82F1-2B09534E6EFC</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<referedAttribute>7C6346C7-15A2-30A8-DF13-CBCD9A941675</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13D3CDB1-1DB1-229A-2156-77E37AAA11E3" name="TB_INTERNACAO PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:43:15 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B24F3D4-FA60-CA28-7E22-930A135FB11A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

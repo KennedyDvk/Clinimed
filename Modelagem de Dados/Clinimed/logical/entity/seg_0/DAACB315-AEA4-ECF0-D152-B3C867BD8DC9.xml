@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAACB315-AEA4-ECF0-D152-B3C867BD8DC9" name="TB_EXAME">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:09:40 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_exame" id="125F0FF1-DD57-1A47-8F50-0D3D67F78C81">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:09:55 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_exame" id="A06B8370-1A3A-39C5-09EA-2061C1ABF660">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:40:41 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="E2AFDBE3-07CE-A28C-FCAF-009D0959A039">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:41:34 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hora_ex" id="4683D746-4867-01B7-CCB2-47D4EEAFAF51">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 23:19:45 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="3025F187-801D-43E9-B297-F8C9474EDFAE">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 00:13:00 UTC</createdTime>
+<generatorID>972AD403-170B-BA80-747C-F50614FD9EB5</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<referedAttribute>4DCD75C1-50E3-097A-55A7-7DB6E30269FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="BCA90A11-6A67-F457-5E8F-22E73D577562">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-04 23:15:11 UTC</createdTime>
+<generatorID>EA4D2B48-7B88-77B9-2357-5A18F9C022C6</generatorID>
+<ownerDesignName>Clinimed</ownerDesignName>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="true"/>
+</engineerTo>
+<referedAttribute>47AECCB1-A909-0210-9C35-54151039F4A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0A3BE00-FCFF-DDAE-BE12-957A20172B81" name="TB_EXAME PK">
+<createdBy>katy</createdBy>
+<createdTime>2023-03-03 23:10:13 UTC</createdTime>
+<ownerDesignName>Clinimed</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BED60275-9EB0-3B06-AEDA-ED59B8F78F4D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>125F0FF1-DD57-1A47-8F50-0D3D67F78C81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
